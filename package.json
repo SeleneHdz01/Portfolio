@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio-website",
+  "version": "1.0.0",
+  "description": "Portafolio",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeleneHdz01/Portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeleneHdz01/Portfolio-website/issues"
+  },
+  "homepage": "https://SeleneHdz01.github.io/Portfolio-website",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
