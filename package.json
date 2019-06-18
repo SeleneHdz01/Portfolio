@@ -18,6 +18,7 @@
   },
   "homepage": "https://SeleneHdz01.github.io/Portfolio-website",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1"
   }
 }
