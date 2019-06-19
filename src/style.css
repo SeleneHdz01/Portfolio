@@ -9,10 +9,10 @@
 
 body {
   font-family: "PT Sans Narrow", sans-serif;
-  background-color: rgb(90, 90, 90);
+  background-color: rgb(181, 186, 182);
   margin: 0;
   line-height: 1.6;
-  color: #eee;
+  color: #184a45;
 }
 a {
   text-decoration: none;
@@ -34,8 +34,7 @@ a {
 #showcase {
   margin: 0;
   padding: 0;
-  background: url("../src/img/deserted-station-at-night.jpg") no-repeat
-    center/cover;
+  background: url("../src/img/desk-coral-background.jpg") no-repeat center/cover;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -100,7 +99,7 @@ a {
 nav {
   height: 40px;
   width: 100%;
-  background-color: #333;
+  background-color: #ff6f61;
   color: #eee;
   position: fixed;
 }
@@ -128,7 +127,7 @@ nav a#openup {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .hide-on-small {
     display: none;
   }
