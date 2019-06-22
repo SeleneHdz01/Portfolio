@@ -1,6 +1,6 @@
 {
-  "name": "Portfolio-website",
-  "version": "1.0.0",
+  "name": "portfolio-website",
+  "version": "1.0.1",
   "description": "Portafolio",
   "main": "main.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/SeleneHdz01/Portfolio-website.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Selene Hdz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SeleneHdz01/Portfolio-website/issues"
@@ -20,5 +20,6 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1"
-  }
+  },
+  "devDependencies": {}
 }
