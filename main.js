@@ -9,7 +9,7 @@ $(function() {
 
   $(window).resize(function() {
     let w = $(this).width();
-    if (w > 480 && menu.is(":hidden")) {
+    if (w > 580 && menu.is(":hidden")) {
       menu.removeAttr("style");
     }
   });
