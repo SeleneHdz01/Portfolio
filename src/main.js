@@ -39,3 +39,5 @@ $(".cf a").on("click", function(event) {
     );
   }
 });
+
+document.querySelector("#try").innerHTML += projectsTemplate;

@@ -1,5 +1,5 @@
-/* Fuente */
-@import url("https://fonts.googleapis.com/css?family=Raleway|Sacramento&display=swap");
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Raleway|Sacramento|Montserrat&display=swap");
 /*CSS root colors*/
 :root {
   --primary-color: #ff6f61;
@@ -17,7 +17,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #ccc;
+  color: #077e72;
 }
 /*Style Section*/
 .section {
@@ -30,6 +30,7 @@ a {
 .section h3 {
   font-size: 1.5rem;
   text-align: left;
+  color: #726b6b;
 }
 /*Section About*/
 .containerAbout {
@@ -82,6 +83,15 @@ section#skills {
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   text-align: left;
+}
+.flex-p {
+  display: flex;
+  justify-content: center;
+}
+.flex-p i {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: #077e72;
 }
 /*Showcase*/
 #showcase {
@@ -136,13 +146,13 @@ footer .footer-bottom {
 
 /*Funcionality Classes*/
 .fa-chevron-circle-up {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 .fa-github-square {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 .fa-linkedin {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 .container {
   max-width: 1180px;
@@ -231,6 +241,22 @@ nav li:hover {
 nav a#openup {
   display: none;
 }
+
+/* style projectSection */
+.projectSection {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 90%;
+}
+.cardProject {
+  max-width: 30%;
+  margin: 0.5rem;
+}
+.cardProject img {
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .containerAbout {
     margin: auto 10%;

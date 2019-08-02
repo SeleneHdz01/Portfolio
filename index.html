@@ -7,6 +7,7 @@
     <title>Selene Hdz | Front-End Developer</title>
     <link rel="icon" type="image/png" href="./src/img/sel-logo.png" />
     <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <link rel="stylesheet" type="text/css" href="src/styleProjects.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
@@ -19,7 +20,7 @@
         <nav class="cf">
           <ul class="cf">
             <li class="hide-on-small">
-              <a href="#home">
+              <a href="#showcase">
                 <i class="fas fa-home"></i>
               </a>
             </li>
@@ -42,7 +43,7 @@
           <a href="#" id="openup">Menu</a>
         </nav>
       </header>
-      <div class="section-main container animated rotateInUpRight">
+      <div class="section-main container ">
         <h1 class="firstName ">Selene Hernández Flores</h1>
         <h2>Desarrolladora Front-End</h2>
         <p class="leads hide-on-small">
@@ -84,58 +85,74 @@
     </section>
     <!--Section Projects-->
     <section id="project" class="section bg-light">
-      <div class="container">
-        <header class="header">
+      <div class="container article-text">
+        <h3 class="header">
           &lt;Proyectos&gt;
-        </header>
-        <!-- <h3>Proyectos</h3> -->
-        <p class="lead">Un Parrafo</p>
-        <a href="#" class="btn btn-secondary">Leer más</a>
-        <img src="" alt="" />
-        <header class="header">
+        </h3>
+        <article id="try"></article>
+        <!-- <a href="#" class="btn btn-secondary">Regresar</a> -->
+        <h3 class="header">
           &lt;/Proyectos&gt;
-        </header>
+        </h3>
       </div>
     </section>
+
     <!--Section Skills-->
     <section id="skills" class="section">
       <div class="container">
-        <header class="header">
+        <h3 class="header">
           &lt;Habilidades&gt;
-        </header>
-        <!-- <h3>Habilidades</h3> -->
-        <p class="lead">Un Parrafo</p>
-        <header class="header">
+        </h3>
+        <p class="flex-p">
+          <i class="fab fa-js-square">JavaScript</i>
+          <i class="fab fa-html5">HTML 5</i>
+          <i class="fab fa-css3-alt">CCS 3</i>
+          <i class="fab fa-react">React JS</i>
+          <i class="fab fa-node-js">Node</i>
+          <i class="fab fa-google">Google-Firebase</i>
+          <i class="fas fa-database">SQL</i>
+        </p>
+        <h3 class="header">
           &lt;/Habilidades&gt;
-        </header>
+        </h3>
       </div>
     </section>
+
     <!--Section Contact-->
     <section id="contact" class="section bg-light">
       <div class="container">
-        <div class="contact">
-          <img src="" alt="" />
-        </div>
         <div>
-          <header class="header">
+          <h3 class="header">
             &lt;Contacto&gt;
-          </header>
-          <a>
-            <p class="fab fa-github-square">SeleneHdz01</p>
-          </a>
+          </h3>
+          <p>
+            ¡Si estas <strong>interesad(a)</strong> en conocer más de mi trabajo
+            <strong> contactamé</strong>!
+          </p>
           <br />
           <a>
-            <i class="fab fa-linkedin">selenehdz01</i>
+            <i class="fab fa-github-square"></i
+            ><a href="https://github.com/SeleneHdz01"> SeleneHdz01</a>
           </a>
+          <br /><br />
+          <a>
+            <i class="fab fa-linkedin"></i
+            ><a href="https://www.linkedin.com/in/selenehdz01/"> selenehdz01</a>
+          </a>
+          <br /><br />
+          <P>No dudes en escribirme a: </P>
           <p>
-            <strong>E-mail: selene.hdz.f@gmail.com</strong>
+            <strong>contacto@selenehernandez.com</strong>
           </p>
-          <header class="header">
-            &lt;/Contacto&gt;
-          </header>
+
           <a href="#" class="text-secondary">
-            <i class="fas fa-chevron-circle-up "></i>
+            <br />
+            <i class="fas fa-chevron-circle-up infinite animated pulse "></i>
+            <br />
           </a>
+          <h3 class="header">
+            &lt;/Contacto&gt;
+          </h3>
         </div>
       </div>
     </section>
@@ -145,7 +162,7 @@
         <div class="footer-cols">
           <ul class="cf">
             <li class="hide-on-small">
-              <a href="#home">
+              <a href="#showcase">
                 <i class="fas fa-home"></i>
               </a>
             </li>
@@ -175,6 +192,8 @@
     <script src="https://kit.fontawesome.com/0f07211b6c.js"></script>
     <!--jquery script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- projectsTemplate script -->
+    <script src="src/projectsTemplate.js"></script>
     <script src="src/main.js"></script>
   </body>
 </html>
